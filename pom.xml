@@ -101,11 +101,24 @@
 					</execution>
 					</executions>
 			</plugin>
-			<!-- <plugin>
+			<plugin>
 				<groupId>com.heroku.sdk</groupId>
 				<artifactId>heroku-maven-plugin</artifactId>
 				<version>3.0.3</version>
-			</plugin> -->
+				
+				<configuration>
+				
+  					<appName>crypto-compare-app</appName>
+					  	<includeTarget>false</includeTarget>
+						<includes>
+  							<include>target/demo-0.0.1-SNAPSHOT.jar</include>
+						</includes>
+					  <processTypes>
+  						<web>java -jar target/demo-0.0.1-SNAPSHOT.jar</web>
+					</processTypes>
+				</configuration>
+				
+			</plugin>
 		</plugins>
 	</build>
 

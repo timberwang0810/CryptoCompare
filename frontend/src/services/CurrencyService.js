@@ -1,6 +1,10 @@
 import axios from 'axios'
 
-const CURRENCY_REST_API_URL = "http://localhost:8080/api/";
+/**
+ * NOTE: Use first link if running local build, use second link for deployment.
+ */
+// const CURRENCY_REST_API_URL = "https://localhost:8080/api/";
+const CURRENCY_REST_API_URL = "https://crypto-compare-app.herokuapp.com/api/";
 
 class CurrencyService{
     getCurrencies = () => {
