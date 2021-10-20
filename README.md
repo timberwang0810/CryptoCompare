@@ -3,12 +3,13 @@ A simple React app to compare prices of Bitcoin and Ethereum from Blockchain.com
 
 ## Live Link
 
-This app is deployed via Firebase: 
+This app is deployed via Heroku:
+
 
 
 ## Running the Build
 
-1. Clone this repository, open two terminal windows and navigate to frontend, backend folders respectively.
+1. Clone this repository, open two terminal windows. One navigate into CryptoCompare (backend), one navigate into CryptoCompare/frontend
 
 2. On the backend terminal, run the backend application by:
     ```
@@ -28,4 +29,3 @@ The backend will be running on port 8080. Go to http://localhost:8080/api/list t
 Make sure you have Node.js installed: https://nodejs.org/en/
 
 The frontend will be running on port 3000. The above command should launch and open the app automatically in your default browser!
-firebase login --reauth
