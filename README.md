@@ -5,7 +5,7 @@ A simple React app to compare prices of Bitcoin and Ethereum from Blockchain.com
 
 This app is deployed via Heroku:
 
-
+https://crypto-compare-app.herokuapp.com/
 
 ## Running the Build
 
